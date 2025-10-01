@@ -1,8 +1,25 @@
 .inp {
-    padding: 3px;
+    padding-left: auto;
     height: 50px;
     width: 50px;
     border: 1.5px solid #555;
     text-align: center;
-    
+    border-radius: 10px;
+}
+.max-highlight{
+    border-color: red;
+    color: #fff;
+    background-color: red;
+}
+.min-highlight{
+    border: green;
+    color: #fff;
+    background-color: green;
+}
+
+/* to disable the arrow in input box */
+input[type=number]::-webkit-inner-spin-button,
+input[type=nummber]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
 }
