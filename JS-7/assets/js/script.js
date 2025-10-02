@@ -81,12 +81,41 @@
 
 // *foreach lop:
 
+// forEach is a built-in array method in JavaScript.
+// It lets you run a function once for each element in an array.
+// It’s often used instead of a traditional for loop when you just want to do something with every item.
+
+// const numbers = [10, 20, 30]
+
+// numbers.forEach(function(num, idx, arr){
+//     console.log(`index ${idx} : ${num} array : ${arr}`)
+// })
+
 // array.forEach(element => {
     
 // });
 
 // *map
 
+// it creates a new array after transforming each element.
+// use when you want a transformed copy of an array.
+// always returns a new array, never modifies the original one.
+
+// const numbers = [1, 3, 5, 7];
+// const squares = numbers.map(num => num*num);
+// console.log(squares);
+
 // *filter
+
+// it creates an array with the elements that pass the given condition.
+// use when you need a subset of an array.
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const evens = numbers.filter(num => num % 2 === 0);
+// console.log(evens); 
+
+// const numbers = [1, 2, 3, 4];
+// const sum = numbers.reduce((acc, num) => acc + num);
+// console.log(sum)
 
 // *reduce
