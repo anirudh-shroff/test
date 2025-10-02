@@ -1,5 +1,6 @@
 // *loops*
 
+// Condition in looping:
 // 1. intialization
 // 2. condition
 // 3. modification
