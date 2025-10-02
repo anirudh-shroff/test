@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    /* margin: auto; */
+/* background-color: bisque; */
+display: flex;
+flex-wrap: wrap;
+height: 600px;
+width: 600px;
+}
+
+.box{
+    border: 0px;
+    font-size: 50px;
+    background-color: aqua;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+}
